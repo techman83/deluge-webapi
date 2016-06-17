@@ -28,7 +28,7 @@ class WebUI(WebPluginBase):
         """
 
         if params is None:
-            filter_fields = ['name', 'comment', 'hash', 'save_path']
+            filter_fields = ['name', 'comment', 'hash', 'save_path', 'state', 'progress']
         else:
             filter_fields = params
 
